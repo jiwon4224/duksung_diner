@@ -1,0 +1,42 @@
+/* 전체 내용 중앙 정렬 */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* 테이블 기본 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* 테이블 헤더 셀 스타일 */
+th {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 테이블 데이터 셀 스타일 */
+td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 테이블 hover 효과 */
+td:hover,
+th:hover,
+td:hover * {
+  background-color: #f8e1ee;
+  transition: background-color 0.3s ease;
+}
+
+/* 이미지 크기 조정 */
+img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+}
